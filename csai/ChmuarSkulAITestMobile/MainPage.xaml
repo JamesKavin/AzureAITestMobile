@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChmurSkulAITestMobile"
+             x:Class="ChmurSkulAITestMobile.MainPage">
+    <ScrollView>
+        <StackLayout>
+
+            <Image x:Name="Img" Margin="24" Source="http://upload.wikimedia.org/wikipedia/commons/3/3c/Shaki_waterfall.jpg" />
+            <Button x:Name="ChooseImageBtn" Text="Choose image" Clicked="ChooseImageBtn_Clicked" Margin="24,12" />
+        
+            <Label Text="Description:" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label x:Name="DescriptionEN" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label Text="Opis:" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label x:Name="DescriptionPL" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+            <Button x:Name="DescribeBtn" Text="Describe image" Clicked="DescribeBtn_Clicked" Margin="24" />
+            <ActivityIndicator x:Name="LoadingBar" IsRunning="True" IsVisible="False" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

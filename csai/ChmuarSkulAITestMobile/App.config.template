@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="ComputerVisionKey" value="YOUR_KEY"/>
+    <add key="TranslatorTextKey" value="YOUR_KEY"/>
+    <add key="BingSpeechKey" value="YOUR_KEY"/>
+  </appSettings>
+</configuration>
