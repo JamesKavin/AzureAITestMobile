@@ -9,16 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="App.config" />
-    <None Remove="App.config.template" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="App.config" />
-    <EmbeddedResource Include="App.config.template" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
     <PackageReference Include="Mobile.BuildTools" Version="1.4.0.638">
       <PrivateAssets>all</PrivateAssets>
