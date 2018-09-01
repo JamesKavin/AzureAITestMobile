@@ -11,7 +11,7 @@ namespace ChmurSkulAITestMobile.Services
     {
         const string AUTH_HOST = "https://api.cognitive.microsoft.com/sts/v1.0";
         const string API_HOST = "https://speech.platform.bing.com/synthesize";
-        readonly string KEY = AppConfig.Get(AppConfig.BingSpeechKey);
+        readonly string KEY = Helpers.Secrets.BingSpeechKey;
         readonly string _authPath = $"{AUTH_HOST}/issueToken";
 
         async Task<string> GetToken()

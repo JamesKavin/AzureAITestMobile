@@ -10,7 +10,7 @@ namespace ChmurSkulAITestMobile.Services
     public class TranslatorTextService
     {
         const string HOST = "https://api.cognitive.microsofttranslator.com";
-        readonly string KEY = AppConfig.Get(AppConfig.TranslatorTextKey);
+        readonly string KEY = Helpers.Secrets.TranslatorTextKey;
         readonly string _path = $"{HOST}/translate?api-version=3.0";
         readonly string _params = "&to={0}";
 

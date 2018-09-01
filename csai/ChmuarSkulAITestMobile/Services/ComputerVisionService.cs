@@ -10,7 +10,7 @@ namespace ChmurSkulAITestMobile.Services
     public class ComputerVisionService
     {
         const string HOST = "https://northeurope.api.cognitive.microsoft.com";
-        readonly string KEY = AppConfig.Get(AppConfig.ComputerVisionKey);
+        readonly string KEY = Helpers.Secrets.ComputerVisionKey;
         readonly string _path = $"{HOST}/vision/v2.0/describe";
         readonly string _params = "?maxCandidates=1";
         
