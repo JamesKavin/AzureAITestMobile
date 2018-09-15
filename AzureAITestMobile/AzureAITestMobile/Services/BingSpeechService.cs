@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChmurSkulAITestMobile.Services
+namespace AzureAITestMobile.Services
 {
     public class BingSpeechService
     {
@@ -46,7 +46,7 @@ namespace ChmurSkulAITestMobile.Services
                 request.Headers.Add("X-Microsoft-OutputFormat", "raw-16khz-16bit-mono-pcm");
                 request.Headers.Add("X-Search-AppId", Guid.NewGuid().ToString().Replace("-", ""));
                 request.Headers.Add("X-Search-ClientID", Guid.NewGuid().ToString().Replace("-", ""));
-                request.Headers.Add("User-Agent", "ChmuSkul AI Test");
+                request.Headers.Add("User-Agent", "Azure AI Test");
                 request.Headers.Add("Authorization", $"Bearer {token}");
 
                 var response = await client.SendAsync(request);

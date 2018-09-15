@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("ChmurSkulAITestMobile.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("AzureAITestMobile.Droid.Resource", IsApplication=true)]
 
-namespace ChmurSkulAITestMobile.Droid
+namespace AzureAITestMobile.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace ChmurSkulAITestMobile.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ChmurSkulAITestMobile.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::AzureAITestMobile.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

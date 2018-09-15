@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using AudioToolbox;
 using AVFoundation;
-using ChmurSkulAITestMobile.iOS;
+using AzureAITestMobile.iOS;
 using Foundation;
 using UIKit;
 using Xamarin.Forms;
 
-namespace ChmurSkulAITestMobile.iOS
+namespace AzureAITestMobile.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 

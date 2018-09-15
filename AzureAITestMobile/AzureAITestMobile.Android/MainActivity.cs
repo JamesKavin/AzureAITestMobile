@@ -9,9 +9,9 @@ using Android.OS;
 using Android.Media;
 using Plugin.CurrentActivity;
 
-namespace ChmurSkulAITestMobile.Droid
+namespace AzureAITestMobile.Droid
 {
-    [Activity(Label = "ChmurSkulAITestMobile", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "AzureAITestMobile", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace ChmurSkulAITestMobile.iOS
+namespace AzureAITestMobile.iOS
 {
     public class Application
     {

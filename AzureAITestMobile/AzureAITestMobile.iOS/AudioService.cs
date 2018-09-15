@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using AudioToolbox;
-using ChmurSkulAITestMobile.iOS;
+using AzureAITestMobile.iOS;
 using Foundation;
 using UIKit;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(AudioService))]
-namespace ChmurSkulAITestMobile.iOS
+namespace AzureAITestMobile.iOS
 {
     public class AudioService : IAudioService
     {

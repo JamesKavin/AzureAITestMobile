@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChmurSkulAITestMobile.Services
+namespace AzureAITestMobile.Services
 {
     public class TranslatorTextService
     {

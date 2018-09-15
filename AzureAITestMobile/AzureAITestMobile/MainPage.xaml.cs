@@ -1,4 +1,4 @@
-﻿using ChmurSkulAITestMobile.Services;
+﻿using AzureAITestMobile.Services;
 using Newtonsoft.Json;
 using Plugin.FilePicker;
 using Plugin.FilePicker.Abstractions;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace ChmurSkulAITestMobile
+namespace AzureAITestMobile
 {
 	public partial class MainPage : ContentPage
     {
@@ -114,7 +114,7 @@ namespace ChmurSkulAITestMobile
 
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
-                Directory = "ChmurSkulAiSample",
+                Directory = "AzureAiSample",
                 Name = "test.jpg"
             });
 

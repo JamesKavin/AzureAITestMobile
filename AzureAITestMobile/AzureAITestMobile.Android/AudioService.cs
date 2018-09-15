@@ -10,11 +10,11 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using ChmurSkulAITestMobile.Droid;
+using AzureAITestMobile.Droid;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(AudioService))]
-namespace ChmurSkulAITestMobile.Droid
+namespace AzureAITestMobile.Droid
 {
     public class AudioService : IAudioService
     {

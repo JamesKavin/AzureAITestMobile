@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChmurSkulAITestMobile.Android", "csai\ChmuarSkulAITestMobile.Android\ChmurSkulAITestMobile.Android.csproj", "{C523845C-F2F5-437D-B598-E45D875277B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAITestMobile.Android", "AzureAITestMobile\AzureAITestMobile.Android\AzureAITestMobile.Android.csproj", "{C523845C-F2F5-437D-B598-E45D875277B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChmurSkulAITestMobile.iOS", "csai\ChmuarSkulAITestMobile.iOS\ChmurSkulAITestMobile.iOS.csproj", "{6D612B5C-3EE3-4259-85DC-C42BC334FC5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAITestMobile.iOS", "AzureAITestMobile\AzureAITestMobile.iOS\AzureAITestMobile.iOS.csproj", "{6D612B5C-3EE3-4259-85DC-C42BC334FC5A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChmurSkulAITestMobile", "csai\ChmuarSkulAITestMobile\ChmurSkulAITestMobile.csproj", "{1A76BB65-5628-4FCE-8BAA-4ED860599044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureAITestMobile", "AzureAITestMobile\AzureAITestMobile\AzureAITestMobile.csproj", "{1A76BB65-5628-4FCE-8BAA-4ED860599044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
